@@ -1,0 +1,57 @@
+# Temporary planning artifacts
+*PLAN.md
+*PLANNING.md
+*SCRATCH.md
+*NOTES.local.md
+*.checkpoint.md
+*.progress.md
+*.status.md
+*.report.md
+*PROGRESS.md
+*STATUS.md
+*REPORT.md
+*HISTORY.md
+*SESSION.md
+*TRANSCRIPT.md
+*CONVERSATION.md
+
+# Logs
+*.log
+logs/
+reports/
+history/
+progress/
+run-history/
+execution-history/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+
+# Rust
+target/
+
+# ESP-IDF generated files
+.embuild/
+.espressif/
+firmware/managed_components/
+firmware/dependencies.lock
+firmware/sdkconfig
+firmware/sdkconfig.old
+
+# Python tooling if used
+__pycache__/
+*.pyc
+
+# Temporary files
+tmp/
+temp/

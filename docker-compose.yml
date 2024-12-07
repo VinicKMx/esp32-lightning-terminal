@@ -1,0 +1,12 @@
+services:
+  gateway:
+    build:
+      context: .
+      dockerfile: deploy/docker/Dockerfile.gateway
+    environment:
+      GATEWAY_BIND_ADDR: 0.0.0.0:3000
+      GATEWAY_DEVICE_ID: dev-terminal-001
+      GATEWAY_DEVICE_SECRET: change-me-development-secret
+      GATEWAY_INVOICE_TTL_SECONDS: 900
+    ports:
+      - "3000:3000"

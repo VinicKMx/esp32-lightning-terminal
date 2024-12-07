@@ -1,0 +1,18 @@
+[package]
+name = "terminal-protocol"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+serde.workspace = true
+thiserror.workspace = true
+terminal-models = { path = "../terminal-models" }
+
+[dev-dependencies]
+serde_json.workspace = true
+
+[lints]
+workspace = true
