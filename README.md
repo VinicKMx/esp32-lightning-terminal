@@ -244,4 +244,5 @@ scratchpads, agent logs and process artifacts do not.
 
 ## License
 
-MIT.
+Dual-licensed under [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE), at your
+option.
