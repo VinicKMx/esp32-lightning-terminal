@@ -227,21 +227,6 @@ If this project helped you, you can send a few sats over Lightning:
 
 <img src="assets/lightning-donation-qr.svg" alt="Lightning donation QR code" width="180">
 
-## Contributing
-
-Commits should describe product changes, for example:
-
-```text
-feat(protocol): define invoice creation API
-feat(gateway): add BTCPay provider
-feat(firmware): add Wi-Fi connection manager
-test(core): cover duplicate payment events
-docs(security): document device authentication
-```
-
-Product documentation belongs in Git. Temporary planning notes, prompts,
-scratchpads, agent logs and process artifacts do not.
-
 ## License
 
 Dual-licensed under [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE), at your
